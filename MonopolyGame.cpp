@@ -6,11 +6,11 @@
 using namespace std;
 
 int main() {
-
+    std::system("color F0");
     srand(static_cast<unsigned int>(time(0)));
 
     cout << "========================================" << endl;
-    cout << "      Welcome to C++ OOP Monopoly       " << endl;
+    cout << "      Welcome to Monopoly Game      " << endl;
     cout << "========================================" << endl;
 
     GameController game(3);

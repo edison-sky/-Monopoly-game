@@ -12,8 +12,6 @@ private:
     double money;
     int currentPosition;
     bool isBankrupt;
-    bool inJail;
-    int jailTurns;
 
     Property* ownedProperties[40];
     int propertyCount;
@@ -26,7 +24,6 @@ public:
     int getMoney() const;
     int getPosition() const;
     bool checkBankrupt() const;
-    bool isInJail() const;
 
     void move(int steps, int boardSize = 40);
     void teleportTo(int position);
@@ -36,12 +33,10 @@ public:
     void buyProperty(Property* prop);
     void sellProperty(Property* prop);
 
-    void goToJail();
-    void releaseFromJail();
     void setBankrupt(bool status);
 
-    void addProperty();       // 買地成功時呼叫，讓數量 +1
-    int getOwnedCount() const; // 讓 GameController 呼叫，回傳數量
+    void addProperty();       
+    int getOwnedCount() const; 
 };
 
 #endif

@@ -11,7 +11,6 @@ Map::~Map() {
 
 void Map::initializeMap() {
     for (int i = 0; i < MAP_SIZE; i++) {
-
         tiles[i] = new Property("land" + std::to_string(i), i, 200.0 + i * 10, 100.0 + i * 5);
     }
 }

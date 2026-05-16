@@ -2,7 +2,7 @@
 #include "Player.h"
 #include <iostream>
 
-// 建構子
+
 Property::Property(std::string name, int pos, double p, double r)
     : Tile(name, pos), price(p), rent(r), owner(nullptr) {
 }
@@ -10,11 +10,10 @@ Property::Property(std::string name, int pos, double p, double r)
 void Property::onLand(Player* player) {
     if (player == nullptr) return;
 
-    // 顯示玩家抵達哪一格
     std::cout << "\n>>> [" << player->getName() << "] landed on " << getName() << std::endl;
 
     if (owner == nullptr) {
-        // 情況 1：無人擁有 (Unowned)
+        
         std::cout << "Price: $" << price << " | Your Balance: $" << player->getMoney() << std::endl;
         std::cout << "Would you like to buy it? (y/n): ";
 
@@ -36,7 +35,6 @@ void Property::onLand(Player* player) {
         }
     }
     else if (owner != player) {
-        // 情況 2：別人的地 (Owned by others)
         std::cout << "Owned by: [" << owner->getName() << "]" << std::endl;
         std::cout << "You must pay rent: $" << rent << std::endl;
 
@@ -50,12 +48,10 @@ void Property::onLand(Player* player) {
         }
     }
     else {
-        // 情況 3：自己的地 (Owned by self)
         std::cout << "Welcome home! This is your property." << std::endl;
     }
 }
 
-// 實作其餘的 Getter/Setter
 double Property::getPrice() const { return price; }
 double Property::getRent() const { return rent; }
 Player* Property::getOwner() const { return owner; }
