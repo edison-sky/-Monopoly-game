@@ -78,7 +78,6 @@ void GameController::printWinner() {
         int landCount = players[i]->getOwnedCount();
         double currentMoney = players[i]->getMoney();
 
-        // 1. 這裡會精準印出「每個人」當前的土地數量與餘額（不管有沒有破產都會印）
         cout << "Player " << (i + 1) << ": ";
         if (players[i]->checkBankrupt()) {
             cout << landCount << " lands, $" << currentMoney << " [BANKRUPT]" << endl;
@@ -87,12 +86,10 @@ void GameController::printWinner() {
             cout << landCount << " lands, $" << currentMoney << " [ALIVE]" << endl;
         }
 
-        // 2. 💥 贏家判定安全鎖：如果這個人破產了，直接跳過，不參與贏家計算！
         if (players[i]->checkBankrupt()) {
             continue;
         }
 
-        // 3. 只有還活著的人，才能進來比誰的土地多、誰的錢多
         if (landCount > maxLand) {
             maxLand = landCount;
             maxMoney = currentMoney;
@@ -107,7 +104,7 @@ void GameController::printWinner() {
     }
 
     cout << "--------------------------------" << endl;
-    // 如果大家都沒破產或有順利抓到贏家，就印出贏家編號
+
     if (winnerID != -1) {
         cout << " WINNER IS PLAYER NO. " << winnerID << "!" << endl;
     }
