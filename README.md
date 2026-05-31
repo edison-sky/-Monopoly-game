@@ -1,3 +1,4 @@
+<img width="972" height="538" alt="螢幕擷取畫面 2026-05-31 200343" src="https://github.com/user-attachments/assets/569464d8-0fb0-4973-8267-0e89e6ad616c" />
 #第二組  
 #資工一B  
 #組員有 黃品超、洪子淯、林岱槿  
