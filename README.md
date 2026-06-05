@@ -7,6 +7,14 @@
 遊戲流程:遊戲開始時初始化一切，接著骰骰子並移動，採到格子後依據格子及自身狀態做出反右，三名玩家事情都結束後，檢查尚未破產人數是否小於等於1，是的話結算，不是的話繼續。  
 #簡報檔:  
 [Monopolygame_compressed.pdf](https://github.com/user-attachments/files/28636724/Monopolygame_compressed.pdf)
+#程式安裝方式:  
+1.下載成ZIP  
+<img width="1918" height="943" alt="螢幕擷取畫面 2026-06-05 194024~2" src="https://github.com/user-attachments/assets/e48956e9-e24c-4be5-8667-c8c0f21fa37c" />  
+2.解壓縮  
+<img width="1918" height="1123" alt="螢幕擷取畫面 2026-06-05 193430~2" src="https://github.com/user-attachments/assets/473c14a6-4a2c-46e2-b7bb-e53876b2adf1" />  
+3.用Visual Studio開啟  
+<img width="1918" height="1113" alt="螢幕擷取畫面 2026-06-05 193859~2" src="https://github.com/user-attachments/assets/f235dfd3-eb5f-44ce-975c-3553d6b559b2" />  
+4.執行程式  
 
 <img width="6048" height="8192" alt="流程圖" src="https://github.com/user-attachments/assets/acdd2099-6967-4b82-90cc-8a19f8a4e0f9" />  
 #遊戲執行畫面  
