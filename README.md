@@ -16,6 +16,8 @@
 <img width="1918" height="1113" alt="螢幕擷取畫面 2026-06-05 193859~2" src="https://github.com/user-attachments/assets/f235dfd3-eb5f-44ce-975c-3553d6b559b2" />  
 4.執行程式  
 
+#流程圖:  
+
 <img width="6048" height="8192" alt="流程圖" src="https://github.com/user-attachments/assets/acdd2099-6967-4b82-90cc-8a19f8a4e0f9" />  
 #遊戲執行畫面  
 <img width="885" height="322" alt="螢幕擷取畫面 2026-05-15 191447" src="https://github.com/user-attachments/assets/5d154f60-9e89-4e35-aac0-84210dee82f1" />  
