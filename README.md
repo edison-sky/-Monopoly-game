@@ -5,6 +5,7 @@
 #專題題目:Monopoly-game  
 #
 遊戲流程:遊戲開始時初始化一切，接著骰骰子並移動，採到格子後依據格子及自身狀態做出反右，三名玩家事情都結束後，檢查尚未破產人數是否小於等於1，是的話結算，不是的話繼續。  
+#簡報檔:  
 [Monopolygame_compressed.pdf](https://github.com/user-attachments/files/28636724/Monopolygame_compressed.pdf)
 
 <img width="6048" height="8192" alt="流程圖" src="https://github.com/user-attachments/assets/acdd2099-6967-4b82-90cc-8a19f8a4e0f9" />  
