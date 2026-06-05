@@ -20,6 +20,9 @@
 
 <img width="6048" height="8192" alt="流程圖" src="https://github.com/user-attachments/assets/acdd2099-6967-4b82-90cc-8a19f8a4e0f9" />  
 #遊戲執行畫面  
+#類別圖:  
+<img width="2214" height="8192" alt="類別圖" src="https://github.com/user-attachments/assets/33d60b4c-ea03-4dbc-866b-433146db308d" />
+
 <img width="885" height="322" alt="螢幕擷取畫面 2026-05-15 191447" src="https://github.com/user-attachments/assets/5d154f60-9e89-4e35-aac0-84210dee82f1" />  
 <img width="752" height="153" alt="螢幕擷取畫面 2026-05-15 191531" src="https://github.com/user-attachments/assets/14f4a0c5-37ed-4de3-89e7-5ebf9da2daff" />  
 <img width="596" height="143" alt="螢幕擷取畫面 2026-05-15 191759" src="https://github.com/user-attachments/assets/ef78097d-f8d2-4a3a-8e95-c8e1562cf602" />  
